@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        let stockMagliette = 30;
+
+        let quantitàMagliette = parseInt(prompt("inserisci la quantita' di magliette desiderate:"))
+
+
+        
+            if (stockMagliette - quantitàMagliette >= 0) {
+                  alert(" L'acquisto è andato a buon fine ")
+                 
+                  rimanenzaMagliette =  stockMagliette - quantitàMagliette
+                  
+                  alert ("Sul sito rimangono ancora " + rimanenzaMagliette + " maglie" )
+                
+
+                } else {
+                    alert("Acquisto non andato a buon fine ci sono disponibili solo 30 magliette")
+                }
+</script>
+
+<script>
+    let voto = parseInt(prompt("inserisci il voto ottenuto:"))
+if ( voto <= 18 ) {
+console.log ( "Insufficiente")
+}
+else if (( voto >= 18) && ( voto <= 21 )) {
+console.log ( "Sufficiente")
+}
+
+</script>
+
+
+
+</body>
+</html>
+
